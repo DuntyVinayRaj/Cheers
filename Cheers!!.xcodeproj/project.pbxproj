@@ -9,11 +9,14 @@
 /* Begin PBXBuildFile section */
 		635FD98719EE44FE00E2C730 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 635FD98619EE44FE00E2C730 /* main.m */; };
 		635FD98A19EE44FE00E2C730 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 635FD98919EE44FE00E2C730 /* AppDelegate.m */; };
-		635FD98D19EE44FE00E2C730 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 635FD98C19EE44FE00E2C730 /* ViewController.m */; };
 		635FD99019EE44FE00E2C730 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 635FD98E19EE44FE00E2C730 /* Main.storyboard */; };
 		635FD99219EE44FE00E2C730 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 635FD99119EE44FE00E2C730 /* Images.xcassets */; };
 		635FD99519EE44FE00E2C730 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 635FD99319EE44FE00E2C730 /* LaunchScreen.xib */; };
 		635FD9A119EE44FE00E2C730 /* Cheers__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 635FD9A019EE44FE00E2C730 /* Cheers__Tests.m */; };
+		635FD9AC19EE60CD00E2C730 /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 635FD9AB19EE60CD00E2C730 /* LoginController.m */; };
+		635FD9B319EE835300E2C730 /* PasswordHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 635FD9B219EE835300E2C730 /* PasswordHandler.m */; };
+		635FD9B719EE931B00E2C730 /* UITextField+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 635FD9B619EE931B00E2C730 /* UITextField+Addition.m */; };
+		635FD9BB19EE93E700E2C730 /* CheersHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 635FD9BA19EE93E700E2C730 /* CheersHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +35,22 @@
 		635FD98619EE44FE00E2C730 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		635FD98819EE44FE00E2C730 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		635FD98919EE44FE00E2C730 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		635FD98B19EE44FE00E2C730 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		635FD98C19EE44FE00E2C730 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		635FD98F19EE44FE00E2C730 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		635FD99119EE44FE00E2C730 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		635FD99419EE44FE00E2C730 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		635FD99A19EE44FE00E2C730 /* Cheers!!Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cheers!!Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		635FD99F19EE44FE00E2C730 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		635FD9A019EE44FE00E2C730 /* Cheers__Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cheers__Tests.m; sourceTree = "<group>"; };
+		635FD9AA19EE60CD00E2C730 /* LoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginController.h; sourceTree = "<group>"; };
+		635FD9AB19EE60CD00E2C730 /* LoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginController.m; sourceTree = "<group>"; };
+		635FD9AE19EE6E3800E2C730 /* CheersGlobals.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CheersGlobals.h; sourceTree = "<group>"; };
+		635FD9AF19EE6F0500E2C730 /* CheersPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CheersPrefixHeader.pch; sourceTree = "<group>"; };
+		635FD9B119EE835300E2C730 /* PasswordHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordHandler.h; sourceTree = "<group>"; };
+		635FD9B219EE835300E2C730 /* PasswordHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordHandler.m; sourceTree = "<group>"; };
+		635FD9B519EE931B00E2C730 /* UITextField+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Addition.h"; sourceTree = "<group>"; };
+		635FD9B619EE931B00E2C730 /* UITextField+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Addition.m"; sourceTree = "<group>"; };
+		635FD9B919EE93E700E2C730 /* CheersHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheersHelper.h; sourceTree = "<group>"; };
+		635FD9BA19EE93E700E2C730 /* CheersHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheersHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,14 +92,17 @@
 		635FD98319EE44FE00E2C730 /* Cheers!! */ = {
 			isa = PBXGroup;
 			children = (
+				635FD9B819EE93D800E2C730 /* Uitilities */,
+				635FD9B419EE930100E2C730 /* Additions */,
+				635FD9B019EE832D00E2C730 /* FileManager */,
+				635FD9AD19EE60D400E2C730 /* Controllers */,
 				635FD98819EE44FE00E2C730 /* AppDelegate.h */,
 				635FD98919EE44FE00E2C730 /* AppDelegate.m */,
-				635FD98B19EE44FE00E2C730 /* ViewController.h */,
-				635FD98C19EE44FE00E2C730 /* ViewController.m */,
 				635FD98E19EE44FE00E2C730 /* Main.storyboard */,
 				635FD99119EE44FE00E2C730 /* Images.xcassets */,
 				635FD99319EE44FE00E2C730 /* LaunchScreen.xib */,
 				635FD98419EE44FE00E2C730 /* Supporting Files */,
+				635FD9AE19EE6E3800E2C730 /* CheersGlobals.h */,
 			);
 			path = "Cheers!!";
 			sourceTree = "<group>";
@@ -98,6 +112,7 @@
 			children = (
 				635FD98519EE44FE00E2C730 /* Info.plist */,
 				635FD98619EE44FE00E2C730 /* main.m */,
+				635FD9AF19EE6F0500E2C730 /* CheersPrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -117,6 +132,42 @@
 				635FD99F19EE44FE00E2C730 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		635FD9AD19EE60D400E2C730 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				635FD9AA19EE60CD00E2C730 /* LoginController.h */,
+				635FD9AB19EE60CD00E2C730 /* LoginController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		635FD9B019EE832D00E2C730 /* FileManager */ = {
+			isa = PBXGroup;
+			children = (
+				635FD9B119EE835300E2C730 /* PasswordHandler.h */,
+				635FD9B219EE835300E2C730 /* PasswordHandler.m */,
+			);
+			name = FileManager;
+			sourceTree = "<group>";
+		};
+		635FD9B419EE930100E2C730 /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				635FD9B519EE931B00E2C730 /* UITextField+Addition.h */,
+				635FD9B619EE931B00E2C730 /* UITextField+Addition.m */,
+			);
+			name = Additions;
+			sourceTree = "<group>";
+		};
+		635FD9B819EE93D800E2C730 /* Uitilities */ = {
+			isa = PBXGroup;
+			children = (
+				635FD9B919EE93E700E2C730 /* CheersHelper.h */,
+				635FD9BA19EE93E700E2C730 /* CheersHelper.m */,
+			);
+			name = Uitilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,9 +270,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				635FD98D19EE44FE00E2C730 /* ViewController.m in Sources */,
+				635FD9AC19EE60CD00E2C730 /* LoginController.m in Sources */,
+				635FD9B319EE835300E2C730 /* PasswordHandler.m in Sources */,
 				635FD98A19EE44FE00E2C730 /* AppDelegate.m in Sources */,
+				635FD9BB19EE93E700E2C730 /* CheersHelper.m in Sources */,
 				635FD98719EE44FE00E2C730 /* main.m in Sources */,
+				635FD9B719EE931B00E2C730 /* UITextField+Addition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,7 +397,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "Cheers!!/CheersPrefixHeader.pch";
 				INFOPLIST_FILE = "Cheers!!/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -353,7 +409,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "Cheers!!/CheersPrefixHeader.pch";
 				INFOPLIST_FILE = "Cheers!!/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
